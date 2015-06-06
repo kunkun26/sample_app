@@ -1,10 +1,10 @@
 require 'spec_helper'
 
-describe StaticPagesController do
+describe UserController do
 
-  describe "GET 'contact'" do
+  describe "GET 'new'" do
     it "returns http success" do
-      get 'contact'
+      get 'new'
       response.should be_success
     end
   end
